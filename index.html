@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Layout</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous|Timmana&display=swap" rel="stylesheet">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+    </head>
+
+    <body>
+        <div id = "title">National Arboretum, Canberra <br></div>
+        <div id = "subtext">Make your upcoming event at the National Arboretum unique using our dynamic logo
+            generator below. Simply enter the date of your event and watch as a seasonal 'fingerprint' for your
+            event is developed, ready for use on all print and screen media at the event.
+        </div>
+        <div id = "logoInfo">
+        </div>
+
+    <!--<div class = "container">-->
+        <div class = "imgRow">
+        <div id = "imgB">
+            <img class = "imgJ" alt = "January Tree" src="img/1.0_Jan.svg">
+            <div class="imgJ">JANUARY</div>
+        </div>
+        <div id = "imgB">
+            <img class = "imgF" alt = "February Tree" src="img/2.0_Feb.svg">  
+        </div>
+        <div id = "imgB">
+            <img class = "imgM" alt = "March Tree" src="img/3.0_Mar.svg"> 
+        </div>
+        <div id = "imgB">
+            <img class = "imgA" alt = "April Tree" src="img/4.0_Apr.svg">
+        </div>
+        <div id = "imgB">
+            <img class = "imgMy" alt = "May Tree" src="img/5.0_May.svg"> 
+        </div>
+        <div id = "imgB">
+            <img class = "imgJn" alt = "June Tree" src="img/6.0_Jun.svg">
+        </div>
+        <div id = "imgB">
+            <img class = "imgJl" alt = "July Tree" src="img/7.0_Jul.svg">
+        </div>
+        <div id = "imgB">
+            <img class = "imgAu" alt = "August Tree" src="img/8.0_Aug.svg">
+        </div>
+        <div id = "imgB">
+            <img class = "imgS" alt = "September Tree" src="img/9.0_Sep.svg">
+        </div>
+        <div id = "imgB">
+            <img class = "imgO" alt = "October Tree" src="img/10.0_Oct.svg">
+        </div>
+        <div id = "imgB">
+            <img class = "imgN" alt = "November Tree" src="img/11.0_Nov.svg">
+        </div>
+        <div id = "imgB">
+            <img class = "imgD" alt = "December Tree" src="img/12.0_Dec.svg"> 
+        </div>
+
+        </div>
+    <!--</div>-->
+    
+    <div id="dateInput">
+        <form action="/action_page.php">
+            Enter the date for your event:
+            <input type="date" id="eventDate">
+            
+        </form>
+    </div>
+
+        <script src="scripts.js"></script>
+        <div id = "myContainer"></div>
+        <div id = "button">
+            <button class = "button" onclick = "draw()">GENERATE</button>
+        </div>
+        
+        
+    
+
+
+    
+    </body>
+</html>

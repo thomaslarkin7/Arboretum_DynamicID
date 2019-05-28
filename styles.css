@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    background: white;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    padding: 0px 10px 10px 10px;
+}
+
+#title{
+    font-size: 70px;
+    width: 100%;
+    top: 0%;
+}
+
+#subtext{
+    position: relative;
+    text-align: justify;
+    width: 50%;
+    font-size: 22px;
+}
+
+#logoInfo{
+    position: absolute;
+    text-align: justify;
+    width: 50%;
+    top: 45%;
+    font-size: 18px;
+}
+
+#myContainer{
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    border: 4px solid black;
+}
+
+.imgRow{
+    background: black;
+    display: flex;
+    height: 110px;
+    position: absolute;
+    width: 96%;
+    bottom: 1%;
+    padding: 1px;
+    border-radius: 3px;
+}
+
+
+#imgB{
+    display: flex;
+    width: 8%;
+    padding: 2px;
+}
+
+
+.imgJ{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+
+}
+
+.imgF{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+}
+
+.imgM{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+}
+
+.imgA{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+}
+
+.imgMy{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+}
+
+.imgJn{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+}
+
+.imgJl{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+}
+
+.imgAu{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+}
+
+.imgS{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+}
+
+.imgO{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+}
+
+.imgN{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+}
+
+.imgD{
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    border-radius: 2px;
+}
+
+
+
+.imgJ:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgF:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgM:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgA:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgMy:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgJn:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgJl:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgAu:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgS:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgO:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgN:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgD:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#dateInput{
+    position: absolute;
+    font-size: 25px;
+    top: 55%;
+}
+
+.button{
+    position: absolute;
+    font-family: 'Timmana';
+    background-color: white;
+    color: black;
+    border: 5px solid black;    
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: 10px 10px 0px 10px;
+    font-size: 25px;
+    top: 68%;
+    left: 25%;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+
+}
+
